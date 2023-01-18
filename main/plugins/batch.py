@@ -123,4 +123,3 @@ async def run_batch(userbot, client, sender, range_, countdown, link):
             print(e)
             if not countdown.text == count_down:
                 await countdown.edit(count_down)
-                
